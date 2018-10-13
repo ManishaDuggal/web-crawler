@@ -36,7 +36,7 @@ public static void check_dir(String path){
     }
 }
 public static void check_url(String url){
-
+        //for checking url validity
     String command=new String("wget --no-check-certificate --spider ");
     command=command+url;
     
